@@ -1,8 +1,9 @@
+import '../message.css';
 
 function Message(props) {
     return ( 
-        <div>
-            <p>{props.text}</p>
+        <div className="message__box">
+            <p className="message__text">{props.text}</p>
         </div>
      );
 }

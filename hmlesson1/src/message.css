@@ -1,0 +1,8 @@
+.message__box {
+    border-radius: 20px;
+    background-color: aqua;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
