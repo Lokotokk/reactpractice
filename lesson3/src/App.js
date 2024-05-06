@@ -6,6 +6,8 @@ import MessageList from './components/MessageList';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import Content from './components/Content';
 import TextDisplayForm from './components/TextDisplayForm';
+import TemperatureConverter from './components/TemperatureConverter';
+import TodoListhm from './components/ToDoListhm';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
       <Counter />
       <MessageList />
       <ThemeSwitcher /> 
-      <ThemeSwitcher /> */}
-      <TextDisplayForm />
+      <ThemeSwitcher />
+      <TextDisplayForm /> */}
+      <TemperatureConverter />
+      <TodoListhm />
     </div>
   );
 }
